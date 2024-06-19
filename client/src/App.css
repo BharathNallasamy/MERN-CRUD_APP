@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6ff;
+}
+
+.container {
+  padding: 10px;
+  background-color: #ffffff;
+  max-width: fit-content;
+  margin: 20px auto;
+}
+
+.addContainer {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addContainer form {
+  width: 400px;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.addContainer form label {
+  font-size: 18px;
+}
+
+.addContainer form input {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.addContainer form .close-btn {
+  margin-left: auto;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.tableContainer {
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.tableContainer table {
+  border: 1px solid #c9c5c2;
+}
+
+.tableContainer table thead tr {
+  background-color: #f0eaea;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  min-width: 200px;
+  text-align: center;
+  padding: 7px;
+}
+
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+}
